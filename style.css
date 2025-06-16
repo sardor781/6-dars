@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+   
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inpWrapper{
+    margin-top: 30px;
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.wrapIcon{
+    width: 100%;
+    border: 1px solid #6C63FF;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.wrapIcon input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+button{
+    cursor: pointer;
+    background-color: #6C63FF;
+    color: white;
+    height: 50px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+}
+
+
+
+
+.darkMode{
+    background-color: #252525;
+    color: white;
+}
+ul{
+    width: 100%;
+    padding:20px 100px;
+}
+ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom:1px solid #6C63FF;
+    padding:20px;
+}
+
+.line{
+    text-decoration: line-through;
+}
+
+.check{
+    cursor: pointer;
+}
+
+.fa-solid{
+    cursor: pointer;
+}
+
